@@ -11,23 +11,24 @@
 int main() {
 
     int i = 24455;
-    std::cout<< i << std::endl;
-    std::cout<< &i << std::endl;
+    std::cout<<"1 - "<< i << std::endl;
+    std::cout<<"2 - "<< &i << std::endl;
     std::cout<< "----------------------" << std::endl;
     int* j = &i;
-    std::cout<< j << std::endl;
-    std::cout<< &j << std::endl;
+    std::cout<<"1 - "<< j << std::endl;
+    std::cout<<"2 - "<< &j << std::endl;
     std::cout<< "----------------------" << std::endl;
-    int k[4] = {111,1111,11111,111111};
-    std::cout<< k << std::endl;
-    std::cout<< &k << std::endl;
-    std::cout<< *&k << std::endl;
-    std::cout<< **&k << std::endl;
+    int k[4] = {101,1001,10001,100001};
+    std::cout<<"1 - "<< k << std::endl;
+    std::cout<<"2 - "<< *k << std::endl;
+    std::cout<<"3 - "<< &k << std::endl;
+    std::cout<<"4 - "<< *&k << std::endl;
+    std::cout<<"5 - "<< **&k << std::endl;
     std::cout<< "----------------------" << std::endl;
-    std::cout<< k[0] << std::endl;
-    std::cout<< &k[0] << std::endl;
-    std::cout<< *&k[0] << std::endl;
+    std::cout<<"1 - "<< k[0] << std::endl;
+    std::cout<<"2 - "<< &k[0] << std::endl;
+    std::cout<<"3 - "<< *&k[0] << std::endl;
     std::cout<< "----------------------" << std::endl;
-    std::cout<< k[1] << std::endl;
+    std::cout<<"1 - "<< k[1] << std::endl;
 
 }
