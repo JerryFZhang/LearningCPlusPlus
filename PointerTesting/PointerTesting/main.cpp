@@ -14,25 +14,16 @@ int main() {
     
     // Prints the value stored in the int variable (int)
     std::cout<<"1 - "<< i << std::endl;
-    
     // Prints the address of the int variable (int)
     std::cout<<"2 - "<< &i << std::endl;
-    
     std::cout<<"3 - "<< *&i << std::endl;
-    
     std::cout<< "----------------------" << std::endl;
     
     
     int* j = &i;
-    
-    // Prints the value stored in the pointer variable (int*)
     std::cout<<"1 - "<< j << std::endl;
-    
-    // Prints the address of the pointer variable (int*)
     std::cout<<"2 - "<< &j << std::endl;
-    
     std::cout<<"3 - "<< *j << std::endl;
-    
     std::cout<< "----------------------" << std::endl;
     
     int k[4] = {101,1001,10001,100001};
@@ -42,10 +33,12 @@ int main() {
     std::cout<<"4 - "<< *&k << std::endl;
     std::cout<<"5 - "<< **&k << std::endl;
     std::cout<< "----------------------" << std::endl;
+    
     std::cout<<"1 - "<< k[0] << std::endl;
     std::cout<<"2 - "<< &k[0] << std::endl;
     std::cout<<"3 - "<< *&k[0] << std::endl;
     std::cout<< "----------------------" << std::endl;
+    
     std::cout<<"1 - "<< k[1] << std::endl;
 
 }
